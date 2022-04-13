@@ -10,7 +10,9 @@ const objectArr: User[] = [{
   name: 'noodles'
 }]
 
-class Teacher { name: string }
+class Teacher {
+  name: string | undefined;
+}
 
 const objectArr1: Teacher[] = [
   new Teacher(),
